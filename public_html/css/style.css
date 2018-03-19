@@ -13,18 +13,19 @@ and open the template in the editor.
 }
 .menu-haut{
     height: 57px;
-    display: table;
+    padding-top: 15px;
 }
-.rubrique-1{
-    display: table-cell;
-    vertical-align: middle;
-    width: 10%;
+.rubrique-2{
+    padding-top: 7px;
 }
 .cadre{
    border: 1px solid tomato
 }
 .slide{
     height: 390px
+}
+#slide-gauche{
+    background-color: #a1cd5b
 }
 #sous-menu{
     height: 81px;
@@ -38,4 +39,16 @@ and open the template in the editor.
 .marge-interne{
     padding-top: 15px;
     padding-bottom: 15px;
+}
+.survol:hover{
+    background-color: #a1cd5b
+}
+.survol2:hover{
+    background-color: tomato
+}
+.survol3:hover{
+    background-color: #8c0d7e
+}
+.survol4:hover{
+    background-color: #35679a
 }
